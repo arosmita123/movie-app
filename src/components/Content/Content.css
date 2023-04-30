@@ -1,0 +1,42 @@
+.movie {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    padding: 5px;
+    margin: 5px 0;
+    background-color: rgb(216, 168, 216);
+    border-radius: 10px;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+}
+
+.movie:hover {
+    background-color: rgb(155, 79, 237);
+    color: rgb(52, 20, 75);
+}
+
+@media (max-width: 640px) {
+    .movie {
+        width: 50%;
+    }
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+    padding: 8px 0;
+}
+
+.poster {
+    border-radius: 12px;
+}
+
+.movieSeries {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 3px;
+    padding: 2px;
+    padding-bottom: 3px;
+    color: rgb(51, 2, 2);
+    font-size: 17px;
+}
